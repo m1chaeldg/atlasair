@@ -7,7 +7,7 @@ export class Layout extends React.Component {
       <main role="main" className="container">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container">
-            <a className="navbar-brand" href="#">Product Management</a>
+            <a className="navbar-brand" href="#">Cars</a>
           </div>
         </nav>
         {this.props.children}

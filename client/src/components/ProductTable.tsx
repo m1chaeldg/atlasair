@@ -21,7 +21,6 @@ export class ProductTable extends React.Component<Prop, {}> {
 
         return (
             <table className="table table-striped table-hover">
-                <caption>List of products</caption>
                 <thead>
                     <tr>
                         <th scope="col">Manufacturer</th>
