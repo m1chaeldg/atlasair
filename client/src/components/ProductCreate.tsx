@@ -57,7 +57,7 @@ export class ProductCreate extends React.Component<Prop, State>{
 
             <form role="form">
                 <Modal modalId={this.props.modalId}>
-                    <ModalHeader header="Add New Product" />
+                    <ModalHeader header="Add New Car" />
                     <ModalBody>
                         {textInput("manufacturer", "Manufacturer", this.state.Manufacturer)}
                         {textInput("make", "Make", this.state.Make)}
